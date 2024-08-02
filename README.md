@@ -10,5 +10,5 @@ Currently, two official plugins are available:
 =======
 # Todo-React-localstorage
 >>>>>>> origin/main
-TodoList implemented with react Includein ContextApi,LocalStorage
->>>>>>> Hear we can add,delete,update,toggle the added Todos
+1)TodoList implemented with react Includein ContextApi,LocalStorage
+2) Hear we can add,delete,update,toggle the added Todos
