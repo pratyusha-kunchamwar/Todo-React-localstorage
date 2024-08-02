@@ -12,9 +12,9 @@ export default function TodoItem({ todo }) {
         setIsTodoEditable(false);
     };
 
-    const toggleCompleted = () => {
-        toggleComplete(todo.id);
-    };
+    // const toggleCompleted = () => {
+    //     toggleComplete(todo.id);
+    // };
     const todoItemStyle = {
         backgroundColor: todo.completed ? '#c6e9a7' : '#ccbed7',
         color: todo.completed ? '#000' : '#fff',
@@ -28,7 +28,7 @@ export default function TodoItem({ todo }) {
             <input
                 type="checkbox"
                 checked={todo.completed}
-                onChange={toggleCompleted}
+                onChange={()=>toggleComplete(todo.id)}
             />
             <input
                 type="text"
